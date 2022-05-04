@@ -1,15 +1,6 @@
 # Bookstore
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-The Bookstore is a website to store books that allow users to: Display a list of books. Add a book. Remove a selected book.
-
-<!-- ![Math-Magicians Home page (20)](https://raw.githubusercontent.com/sentayhu19/Math-Magicians/testing/src/image/Screenshot%202022-04-28%20141844.png) COMMING SOON -->
-
-
-<!-- ## Live demo comming soon-->
-
-<!-- [Live Demo Link]( ) comming soon-->
+This Platforme will help the user to inter name of book and store it, he can delete and edit any book of his choice.
 
 ## Built With
 
@@ -19,19 +10,17 @@ The Bookstore is a website to store books that allow users to: Display a list of
 - React
 
 ### Prerequisites
-
 - VScode or other editor
+- Google Chrome
 
 ### Install
-
+- eslint
+- stylelint
 #### Cloning the project
 
-git clone https://github.com/sentayhu19/Bookstore <Your-Build-Directory>
+git clone https://github.com/Regiss05/Book-store
 
 ## Available Scripts
-
-In the project directory, you can run:
-
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -69,15 +58,8 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 👤 **Sentayhu Berhanu**
 
-- GitHub: [@sentayhu19](https://github.com/sentayhu19)
-- LinkedIn: [sentayhu-berhanu](https://www.linkedin.com/in/sentayhu-berhanu-6376579a/)
-
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/sentayhu19/Bookstore/issues).
+- GitHub: [@regiss05](https://github.com/regiss05)
+- LinkedIn: [regiss-mukubiza](https://www.linkedin.com/in/regiss-mukubiza-1bab841b3/)
 
 ## Show your support
 
