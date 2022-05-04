@@ -17,4 +17,11 @@ const reminderReducer = (state = initialStore, action) => {
     }
 }
 
+export const addBook = () => ({
+    type: ADD_REMINDER,
+});
+export const removeBook = () => ({
+    type: DELETE_REMINDER,
+});
+
 export default reminderReducer;
