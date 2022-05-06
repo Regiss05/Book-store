@@ -26,6 +26,8 @@
   line-height: normal;
   letter-spacing: 0.5px;
   text-align: center;
+  border: none;
+  padding: 20px;
 }
 
 .hline {
@@ -35,9 +37,13 @@
 }
 
 .title {
-  width: 52%;
+  width: 70%;
+  border: 1px solid silver;
+  padding: 11px;
 }
 
 .author {
-  width: 39%;
+  width: 30%;
+  border: 1px solid silver;
+  padding: 11px;
 }

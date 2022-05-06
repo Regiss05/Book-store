@@ -63,7 +63,6 @@ body {
 }
 
 .action-btn {
-  /* width: 1.688rem; */
   height: 1.188rem;
   font-family: 'RobotoSlab', sans-serif;
   font-size: 0.875rem;
@@ -74,6 +73,7 @@ body {
   letter-spacing: normal;
   color: var(--cool-blue);
   border: none;
+  background-color: white;
 }
 
 .percent-complete-wrap {
@@ -81,6 +81,10 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.Completed {
+  color: rgb(162, 162, 162);
 }
 
 .Oval-2 {
@@ -113,6 +117,9 @@ body {
   border-radius: 3px;
   background-color: var(--azure);
   text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .Update-progress {
@@ -180,7 +187,8 @@ body {
   font-style: normal;
   line-height: normal;
   letter-spacing: -0.2px;
-  color: var(--black-two);
+  margin: 10px 0 5px 0;
+  color: #ababab;
 }
 
 .author-1 {
@@ -194,6 +202,7 @@ body {
   line-height: normal;
   letter-spacing: normal;
   color: var(--cool-blue);
+  margin: 0;
 }
 
 .Rectangle-3 {

@@ -1,6 +1,6 @@
 :root {
   --black: #121212;
-  --azure: rgb(37, 46, 224);
+  --azure: #2690fb;
   --white: #fff;
 }
 
@@ -35,7 +35,7 @@
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
-  color: var(--azure);
+  color: #2690fb;
 }
 
 a {

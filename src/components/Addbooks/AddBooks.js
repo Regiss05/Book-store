@@ -33,7 +33,7 @@ const AddBooks = () => {
     <>
       <hr className="hline" />
       <div className="form-wrap">
-        <h3 className="title-1">Add A New Book</h3>
+        <h3 className="title-1">ADD NEW BOOKS</h3>
         <form className="add-book-form" onSubmit={handleSubmit}>
           <input
             id="title"
