@@ -1,4 +1,29 @@
+:root {
+  --button-bg: rgb(90, 97, 238);
+  --btnTextColor: rgb(245, 232, 232);
+}
+
+.form-wrap {
+  margin-left: 7%;
+}
+
 .add-book-form {
-  display: flex;
   column-gap: 1%;
+}
+
+input {
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.Addbook-btn {
+  background-color: rgb(37, 158, 150);
+  border: none;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.hline {
+  margin-left: 10%;
+  margin-right: 10%;
 }

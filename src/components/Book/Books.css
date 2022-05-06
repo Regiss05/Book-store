@@ -1,4 +1,46 @@
+:root {
+  --background: rgb(231, 227, 227);
+}
+
 .main {
+  display: flex;
   margin: 0;
   padding: 0;
+  width: 100%;
+  padding: 20px 5rem;
+}
+
+.remove {
+  background-color: rgb(168, 13, 13);
+  padding: 10px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+
+.books-list-section {
+  width: 50%;
+}
+
+.book {
+  background-color: rgb(243 243 243);
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.loading {
+  padding-left: 30%;
+  width: 500px;
+  height: 400px;
+  padding-top: 6%;
+}
+
+.error {
+  background-color: red;
+  color: white;
+  width: 40%;
+  margin: auto;
+  margin-top: 12%;
+  text-align: center;
+  height: 60px;
 }

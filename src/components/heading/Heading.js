@@ -9,7 +9,7 @@ const heading = () => (
     <header className="heading">
       <div className="nav">
         <Link to="/">
-          <h2 className="store">BookStore CMS</h2>
+          <h2 className="store">BookStore</h2>
         </Link>
         <Link to="/Books" className="books">
           <p>Books</p>

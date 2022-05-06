@@ -1,5 +1,39 @@
+:root {
+  --blue: rgb(255, 255, 255);
+}
+
 .heading {
   display: flex;
   justify-content: space-between;
-  margin-left: 7%;
+  padding-left: 7%;
+  background-color: rgb(85, 85, 85);
+}
+
+.user {
+  align-self: center;
+  margin-right: 10%;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  column-gap: 1%;
+  width: 60%;
+}
+
+.store {
+  color: white
+}
+
+a {
+  text-decoration: none;
+}
+
+.user-icn {
+  width: 100px;
+  height: 30px;
+}
+
+.nav p {
+  color: white;
 }
