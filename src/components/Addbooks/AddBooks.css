@@ -1,4 +1,49 @@
+:root {
+  --button-bg: rgb(90, 97, 238);
+  --btnTextColor: rgb(245, 232, 232);
+  --grey-border: #e8e8e8;
+}
+
+.form-wrap {
+  margin-left: 7%;
+}
+
 .add-book-form {
   display: flex;
   column-gap: 1%;
+  width: 88%;
+}
+
+.Addbook-btn {
+  color: var(--btnTextColor);
+  width: 8.938rem;
+  height: 1.125rem;
+  font-family: 'RobotoSlab', sans-serif;
+  font-size: 0.813rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
+  border: none;
+  padding: 20px;
+}
+
+.hline {
+  border: solid 1px var(--grey-border);
+  margin-left: 7.8%;
+  margin-right: 11.7%;
+}
+
+.title {
+  width: 70%;
+  border: 1px solid silver;
+  padding: 11px;
+}
+
+.author {
+  width: 30%;
+  border: 1px solid silver;
+  padding: 11px;
 }
