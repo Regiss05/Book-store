@@ -9,13 +9,13 @@ const heading = () => (
     <header className="heading">
       <div className="nav">
         <Link to="/">
-          <h2 className="store">BookStore</h2>
+          <h2 className="store">BookStore CMS</h2>
         </Link>
         <Link to="/Books" className="books">
-          <p>Books</p>
+          <p className="bookstxt">BOOKS</p>
         </Link>
         <Link to="/Categories" className="categories">
-          <p>Categories</p>
+          <p className="categoriestxt">CATEGORIES</p>
         </Link>
       </div>
       <div className="user">

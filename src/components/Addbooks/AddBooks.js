@@ -31,8 +31,9 @@ const AddBooks = () => {
   };
   return (
     <>
+      <hr className="hline" />
       <div className="form-wrap">
-        <h3>Add A New Book</h3>
+        <h3 className="title-1">Add A New Book</h3>
         <form className="add-book-form" onSubmit={handleSubmit}>
           <input
             id="title"
@@ -55,7 +56,7 @@ const AddBooks = () => {
             className="author"
           />
           <button
-            className="Addbook-btn"
+            className="Addbook-btn Rectangle-2"
             type="submit"
           >
             Add Book
