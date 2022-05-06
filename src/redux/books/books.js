@@ -1,30 +1,36 @@
-const ADD_REMINDER = 'bookstore/books/ADDBOOK';
-const DELETE_REMINDER = 'bookstore/books/REMOVEBOOK';
+const ADDBOOK = 'ADDBOOK';
+const REMOVEBOOK = 'REMOVEBOOK';
+const initState = [];
 
-const initialStore = {
-  reminders: [],
+export const createNewBook = (title, author, id) => {
+  initState.push({
+    title,
+    author,
+    id,
+    completed: false,
+  });
 };
-
-const reminderReducer = (state = initialStore, action) => {
+let ID = 0;
+export const remove = (id) => {
+  ID = id;
+};
+const booksReducer = (state = initState, action) => {
   switch (action.type) {
-    case 'ADD_REMINDER':
-      return {
-        reminders: [...state.reminders, action.reminder],
-      };
-    case 'DELETE_REMINDER':
-      return {
-        reminders: state.reminders.filter((reminder) => reminder.id !== action.id),
-      };
+    case ADDBOOK:
+      return [...initState];
+
+    case REMOVEBOOK:
+      return [...state.filter((book) => book.id !== ID)];
     default:
       return state;
   }
 };
 
 export const addBook = () => ({
-  type: ADD_REMINDER,
+  type: ADDBOOK,
 });
 export const removeBook = () => ({
-  type: DELETE_REMINDER,
+  type: REMOVEBOOK,
 });
 
-export default reminderReducer;
+export default booksReducer;
